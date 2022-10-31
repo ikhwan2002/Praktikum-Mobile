@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Latihan Praktikum</string>
+    <string name="judul">INTENT EXPLICIT APP</string>
+    <string name="add_number">ADD NUMBER</string>
+    <string name="add_text">ADD TEXT</string>
+    <string name="add_ruangkubus">KALKULATOR BANGUN RUANG</string>
+    <string name="satu"/>
+    <string name="nama">Masukkan nama</string>
+    <string name="nim">Masukkan NIM</string>
+    <string name="prodi">Masukkan prodi</string>
+    <string name="submit">SUBMIT</string>
+    <string name="halo" />
+    <string name="hitung">hitung</string>
+    <string name="hasil">hasil</string>
+
+</resources>

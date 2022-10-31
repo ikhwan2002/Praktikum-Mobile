@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addText"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_halo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:gravity="left"
+        android:text="@string/halo"
+        />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="@string/nama"/>
+
+    <EditText
+        android:id="@+id/edt_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nim"
+        android:inputType="number"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/edt_prodi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prodi"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btn_halo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/submit"
+        />
+
+</LinearLayout>
